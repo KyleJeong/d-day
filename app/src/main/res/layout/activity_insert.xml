@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:id = "@+id/insert"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffe728" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="60dp"
+        android:text="Year"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffe728" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Month"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffe728" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="67dp"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffe728" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:background = "#ff000000"
+        android:textColor="#ffffff"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/insert" />
+
+    <Spinner
+        android:id="@+id/year"
+        android:maxLength = "4"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/textView3"
+        android:cursorVisible = "false"
+        android:ems="10"
+        android:inputType="number"
+        android:nextFocusDown="@+id/month"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_marginLeft="10dp"
+        android:cursorVisible = "false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:inputType="number"
+        android:nextFocusDown="@+id/editText3"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/date"
+        android:layout_marginLeft="10dp"
+        android:cursorVisible = "false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_below="@+id/textView5"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:textColorHint="#86ffffff"
+        android:hint="@string/hint3"
+        android:id="@+id/title"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:cursorVisible = "false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/year"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/year"
+        android:layout_below="@+id/textView2"
+        android:focusable="true"
+        android:nextFocusDown="@+id/year"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/please"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fffff6fc"
+        android:textSize="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+</RelativeLayout>

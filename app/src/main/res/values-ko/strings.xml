@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialTitle">공지사항</string>
+    <string name="confirm">돌아가기</string>
+    <string name="content1">간단한 디데이를 계산하고 위젯을 보여주는 어플입니다. \n 추가 버튼으로 간단히 일정을 추가할 수 있으며 \n일정을 슬라이드시 간편히 삭제할 수 있습니다.\n또한 위젯을 클릭시 업데이트 됩니다.\n(기종과 안드로이드 버전에따라 안될 수 있습니다)</string>
+    <string name="update1">☞ dday 계산및 관리.\n☞  4x1 위젯 사용가능.</string>
+    <string name="update2">☞타이틀 입력 색 흰색으로 변경.\n☞년도 선택을 선택기능으로 변경.</string>
+    <string name="update3">☞반투명 위젯 추가.</string>
+    <string name="update4">☞일정 추가 화면 기본 날짜를 현재날짜로 자동 지정.</string>
+
+
+
+
+
+    <string name="app_name">디데이</string>
+
+    <string name="select">디데이를 선택해 주세요.</string>
+
+    <string name="background">배경 선택</string>
+
+    <string name="hello1">안녕하세요!</string>
+    <string name="how">버튼을 이용해 일정을 추가해 주세요!</string>
+    <string name="delete">슬라이드시 일정을 삭제할 수 있습니다.</string>
+    <string name="hint">팁 : 위젯 클릭시 수동으로 새로고침. </string>
+
+    <string name="swipe">슬라이드시 삭제</string>
+
+    <string name="title">내용을 입력해 주세요.</string>
+    <string name="insert">추가하기</string>
+    <string name="null1">내용을 입력해 주세요.</string>
+    <string name="null2">년) 을 입력해 주세요.</string>
+    <string name="null3">월) 을 입력해 주세요.</string>
+    <string name="null4">일) 을 입력해 주세요.</string>
+
+
+
+
+
+
+
+
+    <string-array name="year">
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+        <item>2041</item>
+
+
+
+
+
+    </string-array>
+
+
+
+
+    <string-array name="month">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+
+    </string-array>
+    <string-array name="date">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+
+    </string-array>
+    <string name="hint3">제목을 입력해 주세요.</string>
+    <string name="update5">☞4x4 위젯 추가. \n☞ 위젯 업데이트 간격 3시간으로 조정.</string>
+
+
+</resources>

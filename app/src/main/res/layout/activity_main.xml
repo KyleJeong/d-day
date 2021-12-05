@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/standingimg"
+    android:id = "@+id/mainpage">
+
+
+
+
+
+        <ViewFlipper
+            android:layout_weight="45"
+            android:id = "@+id/flipper"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+            >
+
+        </ViewFlipper>
+
+
+
+    <RelativeLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/listView"
+        android:layout_below="@+id/linearLayout">
+
+
+
+        <ImageButton
+            android:id = "@+id/log"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="22dp"
+            android:background="#00000000"
+            android:src ="@drawable/what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:layout_marginRight="10dp"
+            android:src = "@drawable/button_selector"
+            android:background="#00000000"
+            android:id = "@+id/createbutton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </RelativeLayout>
+
+
+    <com.nhaarman.listviewanimations.itemmanipulation.DynamicListView
+        android:layout_weight="45"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="none" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+    <com.fsn.cauly.CaulyAdView
+        android:id = "@+id/xmladview"
+        xmlns:app = "http://schemas.android.com/apk/res/com.kiristudio.jh.d_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:appcode="VMLf7vPa"
+        app:effect="TopSlide"
+        app:dynamicReloadInterval="true"
+        app:reloadInterval="20"
+        app:bannerHeight="Fixed"
+
+        />
+
+
+</LinearLayout>

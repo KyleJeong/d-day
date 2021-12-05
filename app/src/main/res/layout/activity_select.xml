@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainimg">
+
+
+    <TextView
+        android:textColor="#fffffbff"
+        android:padding="20dp"
+        android:text = "@string/select"
+        android:id="@+id/selectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ListView
+        android:layout_weight="45"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="none"
+        android:layout_below="@+id/tip" />
+
+    <TextView
+android:paddingBottom="10dp"
+        android:textColor="#fffffc0e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hint"
+        android:id="@+id/tip"
+        android:layout_below="@+id/selectText"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+</RelativeLayout>

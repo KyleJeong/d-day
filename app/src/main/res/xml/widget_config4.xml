@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:minWidth = "294dp"
+    android:minHeight = "294dp"
+    android:initialLayout = "@layout/dday_widget4"
+    android:updatePeriodMillis = "10800000"
+    android:configure="com.kiristudio.jh.d_day.selectActivity4"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/preview4"
+    android:minResizeWidth="294dp"
+    android:minResizeHeight="294dp"
+    >
+
+</appwidget-provider>
