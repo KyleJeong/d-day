@@ -347,7 +347,7 @@ mCloseAd.setDescriptionText("종료하시겠습니까?");
     }
 
     private void showDefaultClosePopup() {
-        new android.support.v7.app.AlertDialog.Builder(this).setTitle("").setMessage("종료 하시겠습니까?")
+        new androidx.appcompat.app.AlertDialog.Builder(this).setTitle("").setMessage("종료 하시겠습니까?")
                 .setPositiveButton("예", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

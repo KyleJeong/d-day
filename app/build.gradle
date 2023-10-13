@@ -2,12 +2,12 @@ apply plugin: 'com.android.application'
 
 android {
 
-    compileSdkVersion 21
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 33
+    buildToolsVersion '33.0.2'
     defaultConfig {
         applicationId "com.kiristudio.jh.d_day"
-        minSdkVersion 15
-        targetSdkVersion 22
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 7
         versionName "1.16"
     }
@@ -22,11 +22,11 @@ android {
 
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile files('libs/listviewanimations_lib-core-slh_3.1.0.jar')
-    compile files('libs/listviewanimations_lib-core_3.1.0.jar')
-    compile files('libs/listviewanimations_lib-manipulation_3.1.0.jar')
-    compile files('libs/nineoldandroids-2.4.0.jar')
-    compile files('libs/CaulySDK-3.4.8.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation files('libs/listviewanimations_lib-core-slh_3.1.0.jar')
+    implementation files('libs/listviewanimations_lib-core_3.1.0.jar')
+    implementation files('libs/listviewanimations_lib-manipulation_3.1.0.jar')
+    implementation files('libs/nineoldandroids-2.4.0.jar')
+    implementation files('libs/CaulySDK-3.4.8.jar')
 }
